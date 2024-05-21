@@ -1,0 +1,21 @@
+{
+    "name": "gptbot",
+    "description": "hello",
+    "stack": "container",
+    "keywords": [
+        "gpt",
+        "bot"
+    ],
+    "website": "https://github.com/ankitkhandal74/-yuji-itadori",
+    "repository": "https://github.com/ankitkhandal74/-yuji-itadori",
+    "addons": [],
+    "buildpacks": [{
+        "url": "heroku/nodejs"
+    }],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "eco"
+        }
+    }
+}

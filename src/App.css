@@ -1,0 +1,61 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.ask{
+  width: 451px;
+  height: 44px;
+  border: transparent;
+  border-radius: 42px;
+  background: #636060;
+  text-indent: 34px;
+  color: aliceblue;
+  font-size: 18px;
+
+}
+
+.ask::placeholder {
+  font-size: 18px; 
+  color: rgb(235, 235, 235);  
+}
+
+.ask-btn{
+  margin: 0 10px;
+  height: 45px;
+  width: 70px;
+  border-radius: 24px;
+  border: transparent;
+}
+
+.res{
+  height: auto;
+  width: auto;
+  margin: 20px 215px;
+  border-radius: 7px;
+  max-width: 850px;
+  background: #595555;
+  padding: 25px;
+}
+
+.codeSnippet {
+  overflow: auto;
+  max-height: 200px; /* Adjust this value according to your requirement */
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.custom-javascript{
+  color: white;
+}
