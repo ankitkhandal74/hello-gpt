@@ -7,10 +7,7 @@ function App() {
 
   return (
     <>
-      <div>
-        
-      </div>
-      <h1 className='name '>Navigator</h1>
+      <div className='name '>Navigator</div>
       <div>
         <ApiComponent/>
       </div>
