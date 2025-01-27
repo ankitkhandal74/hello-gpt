@@ -10,7 +10,7 @@ function App() {
       <div>
         
       </div>
-      <h1>GPT</h1>
+      <h1 className='name '>Navigator</h1>
       <div>
         <ApiComponent/>
       </div>
