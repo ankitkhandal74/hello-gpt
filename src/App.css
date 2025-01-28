@@ -11,9 +11,15 @@ html, body{
   padding: 0;
   max-width: 100vw;
   max-height: 100vh;
-  scrollbar-color: #888 #f0f0f0; 
-  scrollbar-width: 0;
+  -ms-overflow-style: none;  /* IE और Edge */
+  scrollbar-width: none;     /* Firefox */
 }
+
+/* Chrome, Safari, और Opera के लिए */
+::-webkit-scrollbar {
+  display: none;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
@@ -292,23 +298,4 @@ html, body{
       bottom: 20px;
       color: white;
     }
-  }
-
-
-  ::-webkit-scrollbar {
-    width: 0px;
-    height: 0px; 
-  }
-
- ::-webkit-scrollbar-thumb {
-    background: #888; 
-    border-radius: 4px;
-  }
-
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
-  }
-
-  ::-webkit-scrollbar-track {
-    background: #f0f0f0; 
   }
